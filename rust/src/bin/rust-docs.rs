@@ -14,7 +14,7 @@ fn main() {
 }
 
 // mutable refs
-fn main() {
+fn string_mutable() {
     let mut s = String::from("hi!");
     let w = &mut s; // this is the mutability owner
     
@@ -44,7 +44,7 @@ fn main() {
 
 
 // copy traits
-fn main() {
+fn stringsample() {
     let a = String::from("phone");
     let b = a;
 
